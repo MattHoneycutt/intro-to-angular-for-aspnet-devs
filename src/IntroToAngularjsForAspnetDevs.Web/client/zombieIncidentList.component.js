@@ -7,7 +7,7 @@
             controllerAs: 'vm'
         });
 
-    function controller($http) {
+    function controller($http, $uibModal) {
         var vm = this;
 
         vm.isLoading = true;
@@ -22,7 +22,11 @@
             });
 
         function showDetails(zombie) {
-            //TODO: Open a modal... but how??
+
+            $uibModal.open({
+                template: '<zombie-details></zombie-details>',
+                size: 'lg'                
+            });
         }
     }
 })();

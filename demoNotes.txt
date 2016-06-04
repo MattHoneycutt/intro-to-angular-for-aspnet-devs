@@ -31,3 +31,6 @@ Decrease load time to 2s
 Add column for button and button
 Add ng-click
 Add code to controller
+**Back to slides?**
+Add ui-bootstrap
+Add reference to $uibModal in component and drop in code
