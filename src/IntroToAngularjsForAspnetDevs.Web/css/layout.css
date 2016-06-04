@@ -1,0 +1,12 @@
+﻿body {
+    padding-top: 50px;
+}
+
+.outbreak-label {
+    font-size: 1em;
+    text-transform: uppercase
+}
+
+.main.container {
+    font-size: 1.5em;
+}
