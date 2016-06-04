@@ -1,0 +1,598 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Shortcut/@EntryValue">demo21</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0B1DE90ED66A2D46B0B8984EAFEF241E/Text/@EntryValue">(function (undefined) {&#xD;
+&#xD;
+    angular.module('app')&#xD;
+        .component('zombieDetails', {&#xD;
+            templateUrl: '/client/zombieDetails.tmpl.html',&#xD;
+            controller: controller,&#xD;
+            controllerAs: 'vm'&#xD;
+        });&#xD;
+    &#xD;
+    function controller() {&#xD;
+        &#xD;
+    }&#xD;
+})();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/Shortcut/@EntryValue">demo05</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=119FFB1BEA71B541955DBE8D62787DF8/Text/@EntryValue">1+1 is {{1+1}}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/Shortcut/@EntryValue">demo16</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=123616181435B74AAC419DAD821A14C1/Text/@EntryValue">&lt;p class="lead" ng-if="vm.isLoading"&gt;&#xD;
+    &lt;span class="fa fa-spin fa-spinner"&gt;&lt;/span&gt;&#xD;
+    Loading incidents...&#xD;
+&lt;/p&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Scope/=A14108D8199BD94191FC02A2809F1F3D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Scope/=A14108D8199BD94191FC02A2809F1F3D/Type/@EntryValue">InHtmlLikeFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Shortcut/@EntryValue">demo01</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Text/@EntryValue">&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"&gt;&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=15B1CB5CEAC25E47B29B0182BA831CD2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/Shortcut/@EntryValue">demo17</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27747ECE3D364046816FC0B7C3A05314/Text/@EntryValue">&lt;td&gt;&#xD;
+    &lt;button type="button" class="btn btn-primary"&gt;View Details&lt;/button&gt;&#xD;
+&lt;/td&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Shortcut/@EntryValue">demo11</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=511F70B7E8E787499C1BB4AC97A133B7/Text/@EntryValue">function controller() {&#xD;
+    var vm = this;&#xD;
+&#xD;
+    vm.zombie = {&#xD;
+        location: '327 Springs Road',&#xD;
+        incidentType: 'smallSwarm',&#xD;
+        reportedBy: 'Frances Moreno',&#xD;
+        reportedAt: '2015-09-12T20:26:14Z'&#xD;
+    };&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/Shortcut/@EntryValue">demo12</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5C8DEBE58C296943B51974CF51367505/Text/@EntryValue">&lt;table class="table table-striped"&gt;&#xD;
+    &lt;thead&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;th&gt;Location&lt;/th&gt;&#xD;
+            &lt;th&gt;Incident Type&lt;/th&gt;&#xD;
+            &lt;th&gt;Reported At&lt;/th&gt;&#xD;
+            &lt;th&gt;Reported By&lt;/th&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+    &lt;/thead&gt;&#xD;
+    &lt;tbody&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;{{vm.zombie.location}}&lt;/td&gt;&#xD;
+            &lt;td&gt;{{vm.zombie.incidentType}}&lt;/td&gt;&#xD;
+            &lt;td&gt;{{vm.zombie.reportedAt}}&lt;/td&gt;&#xD;
+            &lt;td&gt;{{vm.zombie.reportedBy}}&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+    &lt;/tbody&gt;&#xD;
+&lt;/table&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/Shortcut/@EntryValue">demo27</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=72FFE335D989AE498389F959AE125D82/Text/@EntryValue">&lt;script src="~/client/zombieModal.service.js"&gt;&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/Shortcut/@EntryValue">demo10</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=794DA856D0D11148BE0DCD6B11062176/Text/@EntryValue">(function (undefined) {&#xD;
+&#xD;
+    angular.module('app')&#xD;
+        .component('zombieIncidentList', {&#xD;
+            templateUrl: '/client/zombieIncidentList.tmpl.html',&#xD;
+            controller: controller,&#xD;
+            controllerAs: 'vm'&#xD;
+        });&#xD;
+&#xD;
+    function controller() {&#xD;
+        var vm = this;&#xD;
+&#xD;
+        vm.zombie = {&#xD;
+            location: '327 Springs Road',&#xD;
+            incidentType: 'smallSwarm',&#xD;
+            reportedBy: 'Frances Moreno',&#xD;
+            reportedAt: '2015-09-12T20:26:14Z'&#xD;
+        };&#xD;
+    }&#xD;
+})();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/Shortcut/@EntryValue">demo13</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7F6CF51E8E66744E91C46A0883755B0D/Text/@EntryValue">| date:'MM/dd/yyyy @ h:mm:ss a'</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Shortcut/@EntryValue">demo20</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=803B13799B9B654A920344C2482FA76B/Text/@EntryValue">$uibModal.open({&#xD;
+    template: '&lt;zombie-details&gt;&lt;/zombie-details&gt;',&#xD;
+    size: 'lg'                &#xD;
+});</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/Shortcut/@EntryValue">demo06</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=830720601D4F884A9C7FB04236BAA5AD/Text/@EntryValue">&lt;table class="table table-striped"&gt;&#xD;
+    &lt;thead&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;th&gt;Location&lt;/th&gt;&#xD;
+            &lt;th&gt;Incident Type&lt;/th&gt;&#xD;
+            &lt;th&gt;Reported At&lt;/th&gt;&#xD;
+            &lt;th&gt;Reported By&lt;/th&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+    &lt;/thead&gt;&#xD;
+    &lt;tbody&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;02855 Clyde Gallagher Crossing&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Betty Henry&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-06-07T20:58:09Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;9 Northwestern Place&lt;/td&gt;&#xD;
+            &lt;td&gt;infected&lt;/td&gt;&#xD;
+            &lt;td&gt;Sarah Dean&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-03-28T02:34:55Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;45289 Carey Street&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;James Rogers&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-04-06T02:09:54Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;470 Dapin Road&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Dennis Ramirez&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-01-03T20:34:38Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;3707 Schmedeman Parkway&lt;/td&gt;&#xD;
+            &lt;td&gt;single&lt;/td&gt;&#xD;
+            &lt;td&gt;Jean Baker&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-05-22T16:21:51Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;50563 Chive Point&lt;/td&gt;&#xD;
+            &lt;td&gt;smallSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Deborah Cole&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-05-07T10:02:52Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;11 Florence Alley&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Donna Hart&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-04-20T05:05:44Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;88629 Westerfield Lane&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Keith Cook&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-03-08T03:12:26Z&lt;/td&gt;&#xD;
+&#xD;
+        &lt;/tr&gt;&#xD;
+    &lt;/tbody&gt;&#xD;
+&lt;/table&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/Shortcut/@EntryValue">demo22</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A38A05FAB0D2C340813BC8C594539B77/Text/@EntryValue">&lt;div class="modal-header"&gt;&#xD;
+    &lt;h3 class="modal-title"&gt;Details here&lt;/h3&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div class="modal-body"&gt;&#xD;
+    This is where the details should go...&#xD;
+&lt;/div&gt;&#xD;
+&lt;div class="modal-footer"&gt;&#xD;
+    &lt;button class="btn btn-default" type="button"&gt;Close&lt;/button&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Shortcut/@EntryValue">demo18</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A976FF8C09290F42BFD1121705D57549/Text/@EntryValue">function showDetails(zombie) {&#xD;
+    //TODO: Open a modal... but how??&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Shortcut/@EntryValue">demo26</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5C027163F53514BAAA9F4ACC5683DB9/Text/@EntryValue">(function (undefined) {&#xD;
+&#xD;
+    angular.module('app')&#xD;
+        .service('zombieModal', zombieModal);&#xD;
+&#xD;
+    function zombieModal($uibModal) {&#xD;
+        var svc = this;&#xD;
+&#xD;
+        svc.showFor = showFor;&#xD;
+&#xD;
+        function showFor(zombie) {&#xD;
+            $uibModal.open({&#xD;
+                template: '&lt;zombie-details zombie="$resolve.zombie"&gt;&lt;/zombie-details&gt;',&#xD;
+                size: 'lg',&#xD;
+                controllerAs: 'vm',&#xD;
+                controller: function () {},&#xD;
+                resolve: {&#xD;
+                    zombie: function () {&#xD;
+                        return zombie;&#xD;
+                    }&#xD;
+                }&#xD;
+            });&#xD;
+        }&#xD;
+    }&#xD;
+&#xD;
+})();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Shortcut/@EntryValue">demo03</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BEEBB8BCB583F848843FA65F4A785E5E/Text/@EntryValue">run(function() {&#xD;
+    console.log('I am running!');&#xD;
+});</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Shortcut/@EntryValue">demo14</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C189CB79FBCAFB4D84CF7FC65EAA8B5D/Text/@EntryValue">vm.zombies = [{&#xD;
+            "id": "d3c6c8fe-2e80-4334-b91b-1975d9642d76",&#xD;
+            "location": "2206 Ruskin Alley",&#xD;
+            "incidentType": "largeSwarm",&#xD;
+            "reportedBy": "Elizabeth Lee",&#xD;
+            "reportedAt": "2016-06-08T01:13:16Z"&#xD;
+        }, {&#xD;
+            "id": "28ea7ca7-9b91-4d9f-a576-f115ea59e867",&#xD;
+            "location": "96107 Northfield Junction",&#xD;
+            "incidentType": "infected",&#xD;
+            "reportedBy": "Raymond Reynolds",&#xD;
+            "reportedAt": "2016-06-09T08:31:24Z"&#xD;
+        }, {&#xD;
+            "id": "d082fbb6-a6b1-46e5-bb1e-87c70783375e",&#xD;
+            "location": "5953 Sycamore Trail",&#xD;
+            "incidentType": "smallSwarm",&#xD;
+            "reportedBy": "Rebecca Phillips",&#xD;
+            "reportedAt": "2016-06-08T00:19:53Z"&#xD;
+        }, {&#xD;
+            "id": "1d6c276e-a268-4a73-acd6-3afa53ed9f3a",&#xD;
+            "location": "6 Jana Circle",&#xD;
+            "incidentType": "largeSwarm",&#xD;
+            "reportedBy": "Doris Clark",&#xD;
+            "reportedAt": "2016-06-09T22:59:02Z"&#xD;
+        }, {&#xD;
+            "id": "1a4c74be-59af-45fb-ab1c-4026e4ffc3d9",&#xD;
+            "location": "632 Rockefeller Park",&#xD;
+            "incidentType": "largeSwarm",&#xD;
+            "reportedBy": "Catherine Ryan",&#xD;
+            "reportedAt": "2016-06-08T09:49:15Z"&#xD;
+        }, {&#xD;
+            "id": "242783b4-5a09-4d4f-99a2-892d12e8e866",&#xD;
+            "location": "632 Everett Park",&#xD;
+            "incidentType": "smallSwarm",&#xD;
+            "reportedBy": "Theresa Lane",&#xD;
+            "reportedAt": "2016-06-09T08:52:37Z"&#xD;
+        }, {&#xD;
+            "id": "b571f316-9b3f-4a6c-8986-0808c19965aa",&#xD;
+            "location": "20210 Macpherson Street",&#xD;
+            "incidentType": "smallSwarm",&#xD;
+            "reportedBy": "Todd Foster",&#xD;
+            "reportedAt": "2016-06-08T06:25:21Z"&#xD;
+        }, {&#xD;
+            "id": "107c50ff-665c-4611-a910-3ed8a4eda5a3",&#xD;
+            "location": "816 Barby Terrace",&#xD;
+            "incidentType": "smallSwarm",&#xD;
+            "reportedBy": "Scott Gomez",&#xD;
+            "reportedAt": "2016-06-09T17:03:59Z"&#xD;
+        }, {&#xD;
+            "id": "ed02cb72-9d63-4a6b-a12a-2ac4f9be6294",&#xD;
+            "location": "8091 Service Terrace",&#xD;
+            "incidentType": "single",&#xD;
+            "reportedBy": "Joyce Thomas",&#xD;
+            "reportedAt": "2016-06-08T13:49:18Z"&#xD;
+        }, {&#xD;
+            "id": "7972bad2-4543-4f6f-a690-158db1bb7ef4",&#xD;
+            "location": "3366 John Wall Street",&#xD;
+            "incidentType": "smallSwarm",&#xD;
+            "reportedBy": "Jesse Franklin",&#xD;
+            "reportedAt": "2016-06-09T04:44:49Z"&#xD;
+        }, {&#xD;
+            "id": "b6cef47a-33ef-473e-b562-f2a8cbf23760",&#xD;
+            "location": "753 Pepper Wood Trail",&#xD;
+            "incidentType": "infected",&#xD;
+            "reportedBy": "Thomas Sanchez",&#xD;
+            "reportedAt": "2016-06-08T11:47:47Z"&#xD;
+        }, {&#xD;
+            "id": "66abf360-6c82-4d0b-9e70-947317adfb85",&#xD;
+            "location": "0 Reindahl Junction",&#xD;
+            "incidentType": "herd",&#xD;
+            "reportedBy": "Stephanie Harris",&#xD;
+            "reportedAt": "2016-06-09T12:15:47Z"&#xD;
+        }&#xD;
+        ];</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/Shortcut/@EntryValue">demo10</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C709A25B2FCCEE4EB5F41951AE916ED9/Text/@EntryValue">&lt;script src="~/client/zombieIncidentList.component.js"&gt;&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/Shortcut/@EntryValue">demo08</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CEE8907A5DC0994FB47D1DE1D055ABD6/Text/@EntryValue">﻿(function (undefined) {&#xD;
+&#xD;
+    angular.module('app')&#xD;
+        .component('zombieIncidentList', {&#xD;
+            templateUrl: '/client/zombieIncidentList.tmpl.html'&#xD;
+        });&#xD;
+&#xD;
+})();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/Shortcut/@EntryValue">demo09</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D05E0AED084BC942A93620280212F4A0/Text/@EntryValue">&lt;table class="table table-striped"&gt;&#xD;
+    &lt;thead&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;th&gt;Location&lt;/th&gt;&#xD;
+            &lt;th&gt;Incident Type&lt;/th&gt;&#xD;
+            &lt;th&gt;Reported At&lt;/th&gt;&#xD;
+            &lt;th&gt;Reported By&lt;/th&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+    &lt;/thead&gt;&#xD;
+    &lt;tbody&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;02855 Clyde Gallagher Crossing&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Betty Henry&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-06-07T20:58:09Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;9 Northwestern Place&lt;/td&gt;&#xD;
+            &lt;td&gt;infected&lt;/td&gt;&#xD;
+            &lt;td&gt;Sarah Dean&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-03-28T02:34:55Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;45289 Carey Street&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;James Rogers&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-04-06T02:09:54Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;470 Dapin Road&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Dennis Ramirez&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-01-03T20:34:38Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;3707 Schmedeman Parkway&lt;/td&gt;&#xD;
+            &lt;td&gt;single&lt;/td&gt;&#xD;
+            &lt;td&gt;Jean Baker&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-05-22T16:21:51Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;50563 Chive Point&lt;/td&gt;&#xD;
+            &lt;td&gt;smallSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Deborah Cole&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-05-07T10:02:52Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;11 Florence Alley&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Donna Hart&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-04-20T05:05:44Z&lt;/td&gt;&#xD;
+        &lt;/tr&gt;&#xD;
+        &lt;tr&gt;&#xD;
+            &lt;td&gt;88629 Westerfield Lane&lt;/td&gt;&#xD;
+            &lt;td&gt;largeSwarm&lt;/td&gt;&#xD;
+            &lt;td&gt;Keith Cook&lt;/td&gt;&#xD;
+            &lt;td&gt;2016-03-08T03:12:26Z&lt;/td&gt;&#xD;
+&#xD;
+        &lt;/tr&gt;&#xD;
+    &lt;/tbody&gt;&#xD;
+&lt;/table&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Shortcut/@EntryValue">demo15</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D0A7067536E77E4FB72BBF2B0F3DFFF9/Text/@EntryValue">$http.get('/api/zombies')&#xD;
+    .then(function(resp) {&#xD;
+        vm.zombies = resp.data;&#xD;
+    });</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/Shortcut/@EntryValue">demo19</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D34A6BB4518B65499851C8A02382229B/Text/@EntryValue">&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"&gt;&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/Shortcut/@EntryValue">demo07</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DBAA95B0263E564DA3B0F7D6703290ED/Text/@EntryValue">&lt;zombie-incident-list&gt;&lt;/zombie-incident-list&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Shortcut/@EntryValue">demo02</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2B01A74F3DBAF41A93A2A5BAC26C793/Text/@EntryValue">angular.module('app', [&#xD;
+    //list modules to include here. &#xD;
+])</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/Shortcut/@EntryValue">demo04</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F54BABA3F48EA24E82EEC7D19ACCD40D/Text/@EntryValue">    &lt;script src="~/client/app.module.js"&gt;&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/Scope/=3CDDF046BEA72B499BFB0E0D6A845C94/Type/@EntryValue">InRazorFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/Shortcut/@EntryValue">demo23</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F8DE9358E66DB24184E3082856099AED/Text/@EntryValue">&lt;script src="~/client/zombieDetails.component.js"&gt;&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Scope/=FFA15E6CFCBE90499C572A859225B012/CustomProperties/=availableInTypeScript/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Shortcut/@EntryValue">demo24</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9A1A18769DF5045B287824D144779B0/Text/@EntryValue">bindings: {&#xD;
+        zombie: '&lt;'&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/Scope/=C3004821E38B4A4AB76DD479CAD6C59A/Type/@EntryValue">InHtmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/Shortcut/@EntryValue">demo25</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9B2760F0847A24A9F9392F5156A85D5/Text/@EntryValue">&lt;div class="modal-header"&gt;&#xD;
+    &lt;h3 class="modal-title"&gt;{{vm.zombie.incidentType}} reported by {{vm.zombie.reportedBy}}&lt;/h3&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div class="modal-body"&gt;&#xD;
+    &lt;div class="row"&gt;&#xD;
+        &lt;div class="col-sm-6 text-center"&gt;&#xD;
+            &lt;img ng-src="/images/{{vm.zombie.id}}.png" style="max-width: 200px;"/&gt;&#xD;
+        &lt;/div&gt;&#xD;
+        &lt;div class="col-sm-6"&gt;&#xD;
+            &lt;table class="table table-striped table-condensed"&gt;&#xD;
+                &lt;tr&gt;&#xD;
+                    &lt;th&gt;Location&lt;/th&gt;&#xD;
+                    &lt;td&gt;{{vm.zombie.location}}&lt;/td&gt;&#xD;
+                &lt;/tr&gt;&#xD;
+                &lt;tr&gt;&#xD;
+                    &lt;th&gt;Incident Type&lt;/th&gt;&#xD;
+                    &lt;td&gt;{{vm.zombie.incidentType}}&lt;/td&gt;&#xD;
+                &lt;/tr&gt;&#xD;
+                &lt;tr&gt;&#xD;
+                    &lt;th&gt;Reported At&lt;/th&gt;&#xD;
+                    &lt;td&gt;{{vm.zombie.reportedAt | date:'MM/dd/yyyy @ h:mm:ss a'}}&lt;/td&gt;&#xD;
+                &lt;/tr&gt;&#xD;
+                &lt;tr&gt;&#xD;
+                    &lt;th&gt;Reported By&lt;/th&gt;&#xD;
+                    &lt;td&gt;{{vm.zombie.reportedBy}}&lt;/td&gt;&#xD;
+                &lt;/tr&gt;&#xD;
+                &lt;tr&gt;&#xD;
+                    &lt;th colspan="2" class="text-center"&gt;Notes&lt;/th&gt;&#xD;
+                &lt;/tr&gt;&#xD;
+                &lt;tr&gt;&#xD;
+                    &lt;td colspan="2"&gt;{{vm.zombie.notes}}&lt;/td&gt;&#xD;
+                &lt;/tr&gt;&#xD;
+            &lt;/table&gt;&#xD;
+        &lt;/div&gt;&#xD;
+    &lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;div class="modal-footer"&gt;&#xD;
+    &lt;button class="btn btn-default" type="button"&gt;Close&lt;/button&gt;&#xD;
+&lt;/div&gt;</s:String>
+	
+	</wpf:ResourceDictionary>
