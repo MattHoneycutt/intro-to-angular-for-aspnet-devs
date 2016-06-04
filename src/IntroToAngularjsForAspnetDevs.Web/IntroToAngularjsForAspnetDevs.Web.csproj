@@ -102,6 +102,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="client\zombieDetails.component.js" />
+    <Content Include="client\zombieDetails.tmpl.html" />
     <Content Include="client\zombieIncidentList.component.js" />
     <Content Include="client\zombieIncidentList.tmpl.html" />
     <Content Include="css\layout.css" />
