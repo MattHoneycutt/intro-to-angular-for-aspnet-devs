@@ -1,0 +1,6 @@
+Add angularjs from cdn
+Create app.module.js
+Add app definition
+Add run callback
+Add ng-app to html tag
+Add "1+1 is {{1+1}}" stuff to the index view
