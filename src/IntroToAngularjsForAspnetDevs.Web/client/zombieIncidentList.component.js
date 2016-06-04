@@ -11,6 +11,7 @@
         var vm = this;
 
         vm.isLoading = true;
+        vm.showDetails = showDetails;
 
         $http.get('/api/zombies')
             .then(function(resp) {
@@ -19,5 +20,9 @@
             .finally(function() {
                 vm.isLoading = false;
             });
+
+        function showDetails(zombie) {
+            //TODO: Open a modal... but how??
+        }
     }
 })();

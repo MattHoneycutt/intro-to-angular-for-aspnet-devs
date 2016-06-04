@@ -28,3 +28,6 @@ Show how bad the UX is
 Add loading logic
 Demonstrate
 Decrease load time to 2s
+Add column for button and button
+Add ng-click
+Add code to controller
