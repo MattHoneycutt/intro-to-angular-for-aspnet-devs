@@ -10,3 +10,6 @@ Drop in static table on Index view
 Replace it with zombie-incident-list component
 Add component, just give it an empty template for now
 BE SURE TO REFERENCE COMPONENT
+Update component with controller, add single zombie
+Update view to display single zombie
+Show what happens if you typo something
