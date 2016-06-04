@@ -19,3 +19,12 @@ Show what happens if you typo something
 Go to component and drop in JS for array of zombies
 Go to HTML and make it display them
 Look at result
+Data is out of order!
+Put in date order with filter
+Add $http call and explain what it is doing; talk about IoC
+Explain promises, the options, etc. 
+Add delay to API call
+Show how bad the UX is
+Add loading logic
+Demonstrate
+Decrease load time to 2s

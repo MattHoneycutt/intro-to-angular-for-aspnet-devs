@@ -11,6 +11,7 @@ namespace IntroToAngularjsForAspnetDevs.Web.Controllers
         public IHttpActionResult Get()
         {
             Thread.Sleep(2000);
+
             var zombies = new[]
             {
                 new ZombieViewModel
