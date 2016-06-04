@@ -4,3 +4,9 @@ Add app definition
 Add run callback
 Add ng-app to html tag
 Add "1+1 is {{1+1}}" stuff to the index view
+Show it works
+Take 1+1 back out
+Drop in static table on Index view
+Replace it with zombie-incident-list component
+Add component, just give it an empty template for now
+BE SURE TO REFERENCE COMPONENT

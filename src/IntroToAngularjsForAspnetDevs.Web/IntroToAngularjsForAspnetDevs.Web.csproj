@@ -102,6 +102,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="client\zombieIncidentList.component.js" />
+    <Content Include="client\zombieIncidentList.tmpl.html" />
+    <Content Include="css\layout.css" />
     <Content Include="Global.asax" />
     <Content Include="images\1d6c276e-a268-4a73-acd6-3afa53ed9f3a.png" />
     <Content Include="Web.config" />
@@ -120,6 +123,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="client\app.module.js" />
     <None Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
