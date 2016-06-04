@@ -8,7 +8,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="zombie in vm.zombies track by zombie.id">
+        <tr ng-repeat="zombie in vm.zombies | orderBy: '-reportedAt' track by zombie.id">
             <td>{{zombie.location}}</td>
             <td>{{zombie.incidentType}}</td>
             <td>{{zombie.reportedAt | date:'MM/dd/yyyy @ h:mm:ss a'}}</td>
