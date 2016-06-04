@@ -12,4 +12,10 @@ Add component, just give it an empty template for now
 BE SURE TO REFERENCE COMPONENT
 Update component with controller, add single zombie
 Update view to display single zombie
+Show result
+Notice how date looks bad
+Add filter to fix it
 Show what happens if you typo something
+Go to component and drop in JS for array of zombies
+Go to HTML and make it display them
+Look at result
