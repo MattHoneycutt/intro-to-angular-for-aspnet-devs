@@ -40,3 +40,5 @@ Create HTML template and drop in code
 Don't forget to reference template from Layout
 Run it and see that we have an empty modal now
 Drop in code to wire it up and display zombie
+Refactor into a service.
+Wire up code to dismiss modal.  
