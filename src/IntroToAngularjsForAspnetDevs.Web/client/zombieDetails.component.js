@@ -5,7 +5,10 @@
         {
             templateUrl: '/client/zombieDetails.tmpl.html',
             controller: controller,
-            controllerAs: 'vm'
+            controllerAs: 'vm',
+            bindings: {
+                zombie: '<'
+            }
         });
 
     function controller() {
