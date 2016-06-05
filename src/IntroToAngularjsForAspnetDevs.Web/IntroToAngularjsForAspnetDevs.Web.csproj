@@ -107,6 +107,7 @@
     <Content Include="client\zombieDetails.tmpl.html" />
     <Content Include="client\zombieIncidentList.component.js" />
     <Content Include="client\zombieIncidentList.tmpl.html" />
+    <Content Include="client\zombieModal.service.js" />
     <Content Include="Global.asax" />
     <Content Include="images\1d6c276e-a268-4a73-acd6-3afa53ed9f3a.png" />
     <Content Include="Web.config" />
