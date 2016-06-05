@@ -7,7 +7,7 @@
             controllerAs: 'vm'
         });
 
-    function controller($http, $uibModal) {
+    function controller($http, zombieModal) {
         var vm = this;
 
         vm.isLoading = true;
@@ -23,16 +23,7 @@
 
         function showDetails(zombie) {
 
-            $uibModal.open({
-                template: '<zombie-details zombie="$resolve.zombie"></zombie-details>',
-                size: 'lg',
-                controller: function () { },
-                resolve: {
-                    zombie: function () {
-                        return zombie;
-                    }
-                }
-            });
+            zombieModal.showFor(zombie);
         }
     }
 })();

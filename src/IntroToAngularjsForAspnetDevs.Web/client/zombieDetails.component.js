@@ -7,12 +7,11 @@
             controllerAs: 'vm',
             controller: controller,
             bindings: {
-                 zombie: '<'
+                zombie: '<'
             }
         });
     
     function controller() {
         var vm = this;
-        console.log(vm);
     }
 })();
