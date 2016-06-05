@@ -9,6 +9,7 @@
         <th>Incident Type</th>
         <th>Reported At</th>
         <th>Reported By</th>
+        <th>&nbsp;</th>
     </tr>
     </thead>
     <tbody>
@@ -17,6 +18,9 @@
         <td>{{zombie.incidentType}}</td>
         <td>{{zombie.reportedAt | date:'MM/dd/yyyy @ h:mm:ss a'}}</td>
         <td>{{zombie.reportedBy}}</td>
+        <td>
+            <button type="button" class="btn btn-primary" ng-click="vm.showDetails(zombie)">View Details</button>
+        </td>
     </tr>
     </tbody>
 </table>
