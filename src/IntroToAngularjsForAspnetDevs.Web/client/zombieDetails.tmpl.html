@@ -1,8 +1,38 @@
 ﻿<div class="modal-header">
-    <h3 class="modal-title">Details here</h3>
+    <h3 class="modal-title">{{vm.zombie.incidentType}} reported by {{vm.zombie.reportedBy}}</h3>
 </div>
 <div class="modal-body">
-    This is where the details should go...
+    <div class="row">
+        <div class="col-sm-6 text-center">
+            <img ng-src="/images/{{vm.zombie.id}}.png" style="max-width: 200px;"/>
+        </div>
+        <div class="col-sm-6">
+            <table class="table table-striped table-condensed">
+                <tr>
+                    <th>Location</th>
+                    <td>{{vm.zombie.location}}</td>
+                </tr>
+                <tr>
+                    <th>Incident Type</th>
+                    <td>{{vm.zombie.incidentType}}</td>
+                </tr>
+                <tr>
+                    <th>Reported At</th>
+                    <td>{{vm.zombie.reportedAt | date:'MM/dd/yyyy @ h:mm:ss a'}}</td>
+                </tr>
+                <tr>
+                    <th>Reported By</th>
+                    <td>{{vm.zombie.reportedBy}}</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="text-center">Notes</th>
+                </tr>
+                <tr>
+                    <td colspan="2">{{vm.zombie.notes}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </div>
 <div class="modal-footer">
     <button class="btn btn-default" type="button">Close</button>

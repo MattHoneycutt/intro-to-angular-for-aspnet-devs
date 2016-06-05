@@ -34,3 +34,9 @@ Add code to controller
 **Back to slides?**
 Add ui-bootstrap
 Add reference to $uibModal in component and drop in code
+Run it
+Add JS component and drop in code
+Create HTML template and drop in code
+Don't forget to reference template from Layout
+Run it and see that we have an empty modal now
+Drop in code to wire it up and display zombie

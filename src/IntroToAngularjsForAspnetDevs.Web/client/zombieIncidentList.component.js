@@ -24,8 +24,14 @@
         function showDetails(zombie) {
 
             $uibModal.open({
-                template: '<zombie-details></zombie-details>',
-                size: 'lg'                
+                template: '<zombie-details zombie="$resolve.zombie"></zombie-details>',
+                size: 'lg',
+                controller: function () { },
+                resolve: {
+                    zombie: function () {
+                        return zombie;
+                    }
+                }
             });
         }
     }
