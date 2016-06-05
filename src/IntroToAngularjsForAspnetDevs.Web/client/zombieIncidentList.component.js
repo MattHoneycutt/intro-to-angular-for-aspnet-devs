@@ -10,9 +10,14 @@
     function controller($http) {
         var vm = this;
 
+        vm.isLoading = true;
+
         $http.get('/api/zombies')
             .then(function(resp) {
                 vm.zombies = resp.data;
+            })
+            .finally(function() {
+                vm.isLoading = false;
             });
     }
 })();

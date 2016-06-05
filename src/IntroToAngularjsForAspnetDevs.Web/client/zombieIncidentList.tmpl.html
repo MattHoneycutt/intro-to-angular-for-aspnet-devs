@@ -1,4 +1,8 @@
-﻿<table class="table table-striped">
+﻿<p class="lead" ng-if="vm.isLoading">
+    <span class="fa fa-spin fa-spinner"></span>
+    Loading incidents...
+</p>
+<table class="table table-striped" ng-if="!vm.isLoading">
     <thead>
     <tr>
         <th>Location</th>
