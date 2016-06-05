@@ -7,7 +7,8 @@
             controllerAs: 'vm',
             controller: controller,
             bindings: {
-                zombie: '<'
+                zombie: '<',
+                close: '&'
             }
         });
     

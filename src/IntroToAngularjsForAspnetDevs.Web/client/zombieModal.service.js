@@ -10,7 +10,7 @@
 
         function showFor(zombie) {
             $uibModal.open({
-                template: '<zombie-details zombie="$resolve.zombie"></zombie-details>',
+                template: '<zombie-details zombie="$resolve.zombie" close="$close()"></zombie-details>',
                 size: 'lg',
                 controllerAs: 'vm',
                 controller: function () {},
