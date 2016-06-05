@@ -8,11 +8,11 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td>{{vm.zombie.location}}</td>
-        <td>{{vm.zombie.incidentType}}</td>
-        <td>{{vm.zombie.reportedAt | date:'MM/dd/yyyy @ h:mm:ss a'}}</td>
-        <td>{{vm.zombie.reportedBy}}</td>
+    <tr ng-repeat="zombie in vm.zombies | orderBy:'-reportedAt'">
+        <td>{{zombie.location}}</td>
+        <td>{{zombie.incidentType}}</td>
+        <td>{{zombie.reportedAt | date:'MM/dd/yyyy @ h:mm:ss a'}}</td>
+        <td>{{zombie.reportedBy}}</td>
     </tr>
     </tbody>
 </table>
