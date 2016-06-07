@@ -6,8 +6,8 @@ The sample app is an incident tracker for use by first-responders in the Zombie 
 
 There are two branches you can use if you wish to follow along with the steps:+1:
 
-* demo-start: This is the starting point, an ASP.NET app with no dependency on AngularJS.
-* demo-end: This is the end of the demo, after AngularJS has been used to display a list of zombies.
+* [demo-start](https://github.com/MattHoneycutt/intro-to-angular-for-aspnet-devs/tree/demo-start): This is the starting point, an ASP.NET app with no dependency on AngularJS.
+* [demo-end](https://github.com/MattHoneycutt/intro-to-angular-for-aspnet-devs/tree/demo-end): This is the end of the demo, after AngularJS has been used to display a list of zombies.
 
 There are commits along the way that show you the steps I took during the usergroup demo. 
 
